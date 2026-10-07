@@ -18,7 +18,11 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 
     <title><?= htmlspecialchars($pageTitle) ?></title> 
 
+<<<<<<< HEAD
     <link rel="stylesheet" href="assets/css/style.css">
+=======
+    <link rel="stylesheet" href="../assets/css/style.css"> 
+>>>>>>> 019b16a8aa19462fe6e18203edbf6ed8434a0ccc
 
 </head> 
 
@@ -28,7 +32,11 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 
     <div class="container nav-wrap"> 
 
+<<<<<<< HEAD
         <a class="brand" href="profile.php">
+=======
+        <a class="brand" href="index.php"> 
+>>>>>>> 019b16a8aa19462fe6e18203edbf6ed8434a0ccc
 
             <span class="brand-mark">TU</span> 
 
@@ -44,7 +52,11 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 
         <nav class="main-nav" aria-label="Navigasi utama"> 
 
+<<<<<<< HEAD
             <a class="<?= $currentPage === 'profile.php' ? 'active' : '' ?>" href="profile.php">Beranda</a>
+=======
+            <a class="<?= $currentPage === 'index.php' ? 'active' : '' ?>" href="index.php">Beranda</a> 
+>>>>>>> 019b16a8aa19462fe6e18203edbf6ed8434a0ccc
 
             <a class="<?= $currentPage === 'profile.php' ? 'active' : '' ?>" href="profile.php">Profil</a> 
 
